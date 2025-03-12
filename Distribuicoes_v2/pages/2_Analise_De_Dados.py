@@ -13,7 +13,7 @@ def load_data(path: str):
    return data
 
 # Carregando dados do Excel
-df = load_data("./CANCER_FORMATADO.xlsx")
+df = load_data("CANCER_FORMATADO.xlsx")
 st.dataframe(df, width=1000,height=400)
 
 st.markdown(" ")
