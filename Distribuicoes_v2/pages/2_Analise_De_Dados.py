@@ -13,7 +13,7 @@ def load_data(path: str):
    return data
 
 # Carregando dados do Excel
-df = load_data("./data/CANCER_FORMATADO.xlsx")
+df = load_data("./Distribuicoes_v2/CANCER_FORMATADO.xlsx")
 st.dataframe(df, width=1000,height=400)
 
 st.markdown(" ")
@@ -177,7 +177,7 @@ def load_data(path: str):
    return data
 
 # Carregar os dados
-df = load_data("./data/CANCER_FORMATADO.xlsx")
+df = load_data("./Distribuicoes_v2/CANCER_FORMATADO.xlsx")
 st.subheader(" ", divider=True)
 
 # Título do aplicativo
