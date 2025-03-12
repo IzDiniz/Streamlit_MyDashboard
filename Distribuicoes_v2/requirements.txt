@@ -3,5 +3,6 @@ pandas
 numpy
 scipy
 plotly
+matplotlib
 openpyxl
 streamlit-extras
